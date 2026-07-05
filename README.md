@@ -1,2 +1,3 @@
 # esp32-soil-irrigation-controller
 Automated soil moisture &amp; irrigation system using ESP32 and MicroPython
+Soil-moisture and irrigation module for a greenhouse-automation project. Using a capacitive soil sensor, an analog water-level sensor, a relay, and a pump on an ESP32. Includes a MicroPython class handling moisture readings, optimal-range checks, low-water alerts, and pump activation. It let users configure irrigation frequency and volume, and auto-adjusted watering frequency/duration in real time based on live moisture data. I also wrote a full test suite to validate every class function independently before integration.
